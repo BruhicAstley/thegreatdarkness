@@ -1,2 +1,0 @@
-# thegreatdarkness
-The Great Darkness 
