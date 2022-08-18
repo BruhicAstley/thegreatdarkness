@@ -1,9 +1,11 @@
 version="1.0.0"
 replace_path="common/decisions"
+replace_path="common/decisions/categories"
 replace_path="common/bookmarks"
 replace_path="common/ideas"
 replace_path="common/ideas/economic"
 replace_path="gfx/loadingscreens"
+replace_path="events"
 tags={
 	"Alternative History"
 	"Events"
