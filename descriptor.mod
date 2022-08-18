@@ -1,5 +1,6 @@
 version="1.0.0"
 replace_path="common/decisions"
+replace_path="common/bookmarks"
 tags={
 	"Alternative History"
 	"Events"
