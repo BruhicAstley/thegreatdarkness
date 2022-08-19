@@ -58,7 +58,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
-
+			}
 			modifier = {
 				conscription = 0.025
 			}
@@ -74,11 +74,6 @@ ideas = {
 					#Prio if low on manpower
 					factor = 20
 					manpower_per_military_factory < 1000
-				}
-				modifier = {
-					tag = ENG
-					has_idea_with_trait = military_theorist
-					factor = 20
 				}
 			}
 
@@ -255,7 +250,6 @@ ideas = {
 
 		scraping_the_barrel = {
 
-
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
@@ -270,7 +264,6 @@ ideas = {
 				#		ratio > 1
 				#	}
 				#}
-				if = {
 			}
 
 			ai_will_do = {
@@ -291,7 +284,7 @@ ideas = {
 					manpower_per_military_factory >  5000
 				}
 			}
-
+			
 			cost = 150
 			removal_cost = -1
 			level = 1
@@ -307,4 +300,3 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-}

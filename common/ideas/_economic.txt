@@ -98,7 +98,6 @@ ideas = {
 
 			available = {
 				has_war_support > 0.15
-				}
 			}
 			on_add = {
 			}
@@ -120,21 +119,15 @@ ideas = {
 
    				modifier = {
 					factor = 20
-
 					is_major = yes
 				}
 				modifier = {
 					has_war_support > 0.25
 					factor = 0 #don't even look at it if you could be taking partial mob
 				}
-				modifier = {
-					tag = ENG
-					has_war = no
-					date < 1937.6.1
-					factor = 0
-				}
    			}
 		}
+		
 
 		partial_economic_mobilisation = {
 
@@ -154,8 +147,6 @@ ideas = {
 			}
 
 			cancel_if_invalid = no
-			on_add = {
-			}
 			ai_will_do = {
    				factor = 2
 
@@ -415,8 +406,8 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
+			}
 		}
-
 		export_focus = {
 
 			available = {
@@ -522,18 +513,6 @@ ideas = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
 				}
-				OR = {
-					NOT = {	tag = SOV }
-					NOT = { has_opinion_modifier = MR_pact }
-				}
-
-				if = {
-					limit = {
-						original_tag = CHI
-						has_dlc = "Waking the Tiger"
-					}
-					NOT = { has_idea = CHI_nine_power_treaty }
-				}
 			}
 
 			cost = 150
@@ -576,7 +555,7 @@ ideas = {
 					# since they will require our trades
 					has_large_ally_not_pick_closed_economy = yes
 				}
-   			}
+			}
 		}
 	}
 }
