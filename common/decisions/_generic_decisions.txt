@@ -73,7 +73,6 @@ political_actions = {
 					tag = SPR
 				}
 				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 		}
@@ -125,9 +124,6 @@ political_actions = {
 			if = {
 				limit = {
 					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 		}
@@ -259,9 +255,6 @@ propaganda_efforts = {
 					tag = SPR
 					has_dlc = "La Resistance"
 				}
-				NOT = {
-					has_idea = SPR_political_violence
-				}
 			}
 			if = {
 				limit = {
@@ -325,9 +318,6 @@ propaganda_efforts = {
 				limit = {
 					tag = SPR
 					has_dlc = "La Resistance"
-				}
-				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 			if = {
@@ -750,7 +740,6 @@ foreign_politics = {
 			NOT = {
 				AND = {
 					original_tag = SPR
-					has_completed_focus = SPR_regional_defense_council_of_aragon
 				}
 			}
 		}
