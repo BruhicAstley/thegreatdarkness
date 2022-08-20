@@ -682,23 +682,7 @@ default_stockpile_management = {
 		type = equipment_stockpile_surplus_ratio
 		value = 35 # double base stockpile #from 25 to 35
 	}
-}
 
-
-dont_build_capitals_if_on_treaty = {
-	enable = {
-		has_naval_treaty_trigger = yes
-		not = {
-			OR = {
-				original_tag = JAP
-				original_tag = ITA
-			}
-		}
-	}
-
-	abort = {
-		not = { has_naval_treaty_trigger = yes }
-	}
 
 	ai_strategy = {
 		type = unit_ratio
@@ -720,17 +704,6 @@ dont_build_capitals_if_on_treaty = {
 
 DEFAULT_template_design = {
 	enable = {
-		NOT = {
-			OR = {
-				tag = GER
-				tag = ENG
-				tag = SOV
-				tag = ITA
-				tag = JAP
-				tag = USA
-				tag = POL
-			}
-		}
 		date < 1940.1.1
 	}
 	abort = {
