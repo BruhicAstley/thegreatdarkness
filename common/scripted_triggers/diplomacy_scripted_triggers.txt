@@ -201,7 +201,17 @@ DIPLOMACY_DOCKING_RIGHTS_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		if = {
+			limit = {
+				FROM = { 
+					original_tag = RAD
+				}
+				always = no
+			}
+		}
+		else = {
+			always = yes
+		}
 	}
 	if = {
 		limit = {
@@ -271,7 +281,17 @@ DIPLOMACY_LEND_LEASE_ENABLE_TRIGGER = {
 				option = FREE
 			}
 		}
-		always = yes
+		if = {
+			limit = {
+				FROM = { 
+					original_tag = RAD
+				}
+				always = no
+			}
+		}
+		else = {
+			always = yes
+		}
 	}
 	if = {
 		limit = {
