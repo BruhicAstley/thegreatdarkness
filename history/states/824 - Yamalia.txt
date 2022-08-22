@@ -1,13 +1,13 @@
 
 state = {
 	id = 824
-	name = "STATE_824" # Yamalia
+	name = "STATE_824" # YaRADia
 	manpower = 21974
 	
 	state_category = pastoral
 
 	history = {
-		owner = SOV
+		owner = RAD
 		buildings = {
 			infrastructure = 1
 		}

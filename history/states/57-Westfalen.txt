@@ -6,7 +6,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = GER
+		owner = RAD
 		victory_points = {
 			495 5 
 		}
@@ -22,7 +22,7 @@ state={
 		}
 		add_core_of = GER
 
-		1939.1.1 ={
+		2000.1.1 ={
 			buildings = {
 				radar_station = 1
 				arms_factory = 6

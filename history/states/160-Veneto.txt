@@ -9,7 +9,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = ITA
+		owner = RAD
 		victory_points = {
 			11584 10 
 		}
@@ -26,7 +26,7 @@ state={
 
 		}
 		add_core_of = ITA
-		1939.1.1 = {
+		2000.1.1 = {
 			buildings = {
 				dockyard = 2
 				industrial_complex = 5

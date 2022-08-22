@@ -11,7 +11,7 @@ state={
 		victory_points = {
 			9809 3 
 		}
-		owner = YUG
+		owner = RAD
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
@@ -22,16 +22,15 @@ state={
 			}
 
 		}
-		add_core_of = YUG
+		add_core_of = RAD
 
 	}
 
 	provinces={
-		937 6913 9809 9821 11858 
+		937 6913 9809 11858 
 	}
-	manpower=895500
+	manpower=772500
 	buildings_max_level_factor=1.000
 	state_category=rural
-
-	local_supplies=3.0 
+	local_supplies=3.000
 }

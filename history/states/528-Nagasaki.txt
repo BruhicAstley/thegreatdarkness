@@ -9,8 +9,8 @@ state={
 	}
 
 	history={
-		owner = JAP
-		add_core_of = JAP
+		owner = RAD
+		add_core_of = RAD
 		buildings = {
 			infrastructure = 4 #was: 7
 			air_base = 3
@@ -32,7 +32,7 @@ state={
 		victory_points = {
 			9950 30
 		}
-		1939.1.1 = {
+		2000.1.1 = {
 			buildings = {
 				dockyard = 4
 				industrial_complex = 3

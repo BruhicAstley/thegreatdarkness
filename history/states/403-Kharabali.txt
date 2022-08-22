@@ -1,13 +1,13 @@
 
 state={
 	id=403
-	name="STATE_403" # Tyumen
+	name="STATE_403" # TyuRAD
 	manpower = 939067
 	
 	state_category = rural
 
 	history={
-		owner = SOV
+		owner = RAD
 		victory_points = {
 			4824 1
 		}

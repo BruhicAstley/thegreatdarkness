@@ -1,13 +1,10 @@
-state=
-{
+
+state={
 	id=650
 	name="STATE_650"
-	manpower=20
-	state_category = tiny_island
-	
-	history=
-	{
-		owner = USA
+
+	history={
+		owner = RAD
 		victory_points = {
 			13067 1 
 		}
@@ -15,12 +12,18 @@ state=
 			infrastructure = 1
 			13067 = {
 				naval_base = 1
-			}
-		}
-	}
-	provinces=
-	{
-13067 	}
 
-	local_supplies=0.0 
+			}
+
+		}
+
+	}
+
+	provinces={
+		1135 7884 10679 10694 12661 13090 
+	}
+	manpower=20
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
 }

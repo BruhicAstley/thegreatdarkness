@@ -12,22 +12,30 @@ state= {
 	history= {
 		owner = GXC
 		add_core_of = GXC
-		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = RAD
+		add_core_of = RAD
+
+		victory_points = {
+			9938 1 
+		}
+		victory_points = {
+			7108 3 
+		}
+
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			9938 = {
 				naval_base = 1
-				coastal_bunker = 1
+				coRADal_bunker = 1
 				bunker = 1
 			}
 		}
 
 		1938.10.25 = {		
 			remove_core_of = GXC
-			owner = CHI
-			JAP = {
+			owner = RAD
+			RAD = {
 				set_province_controller = 1202
 				set_province_controller = 4050
 				set_province_controller = 7108

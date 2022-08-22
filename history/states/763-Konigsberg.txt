@@ -6,11 +6,14 @@ state={
 	state_category = city
 
 	history={
-		owner = GER
-		controller = GER
+		owner = RAD
+		controller = RAD
 		
 		victory_points = {
 			6332 10 
+		}
+		victory_points = {
+			3384 1 
 		}
 
 		buildings = {
@@ -27,8 +30,8 @@ state={
 			}
 			air_base = 6
 		}
-		add_core_of = GER
-		1939.1.1 = {
+		add_core_of = RAD
+		2000.1.1 = {
 			buildings = {
 				anti_air_building = 5
 			}

@@ -5,25 +5,24 @@ state={
 
 	history={
 		victory_points = {
-			6940 3 
+			9849 3 
 		}
-		owner = YUG
+		owner = RAD
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = YUG
+		add_core_of = RAD
 		add_core_of = KOS
 		add_core_of = SER
 
 	}
 
 	provinces={
-		6940 9849 9874 9890 
+		6953 9849 9874 
 	}
 	manpower=616000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-
-	local_supplies=0.0 
+	state_category=pRADoral
+	local_supplies=0.000
 }

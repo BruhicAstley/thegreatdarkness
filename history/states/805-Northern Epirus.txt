@@ -13,7 +13,7 @@ state={
 	state_category = pastoral
 
 	history= {
-		owner = ALB
+		owner = RAD
 		victory_points = {
 			914 3
 		}
@@ -24,8 +24,8 @@ state={
 		add_claim_by = GRE
 		add_claim_by = ITA
 
-		1939.4.12 = {
-			owner = ITA
+		2000.4.12 = {
+			owner = RAD
 			controller = ITA
 			remove_claim_by = ITA
 		}

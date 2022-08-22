@@ -6,12 +6,12 @@ state={
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category = pastoral
+	state_category = pRADoral
 	history={
 		owner = YUN
 		add_core_of = YUN
-		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = RAD
+		add_core_of = RAD
 		victory_points = {
 			7965 3 
 		}
@@ -26,7 +26,7 @@ state={
 					}
 
 				}
-				CHI = {
+				RAD = {
 					transfer_state = PREV
 
 				}

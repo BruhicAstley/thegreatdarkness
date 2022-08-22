@@ -9,7 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 
 	history={
-		owner = CHI
+		owner = RAD
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -20,7 +20,7 @@ state={
 			9958 1 
 		}
 
-		1938.10.25 = {		
+		2000.10.25 = {		
 			buildings = {
 				industrial_complex = 4
 				infrastructure = 4 #was: 8

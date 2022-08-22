@@ -6,7 +6,7 @@ state={
 	
 	state_category = city
 	history={
-		owner = ITA
+		owner = RAD
 		victory_points = {
 			11837 15 
 		}
@@ -23,7 +23,7 @@ state={
 			}
 		}
 		add_core_of = ITA
-		1939.1.1 = {
+		2000.1.1 = {
 			buildings = {
 				dockyard = 5
 			}

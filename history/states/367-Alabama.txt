@@ -2,18 +2,17 @@
 state={
 	id=367
 	name="STATE_367"
-	manpower = 2646247
-	
-	state_category = city
 
 	history={
-		owner = USA
+		owner = RAD
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 3
 			7480 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = USA
 		victory_points = {
@@ -22,17 +21,21 @@ state={
 		victory_points = {
 			12735 1 
 		}
-		1939.1.1 = {
+		2000.1.1 = {
 			buildings = {
 				industrial_complex = 4
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 
+		492 638 860 968 1433 1480 1587 4594 4622 4756 5059 5090 7422 7480 7583 7612 7640 9996 10192 10492 10520 11509 11942 12325 12384 12470 12498 12735 12803 
 	}
-
-	local_supplies=0.0 
+	manpower=2646247
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

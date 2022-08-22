@@ -2,12 +2,12 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 51600
-	state_category = pastoral
+	manpower = 31300
+	state_category = pRADoral
 
 	history={
 		add_core_of = QAT
-		owner = ENG
+		owner = RAD
 		victory_points = {
 			8051 1
 		}

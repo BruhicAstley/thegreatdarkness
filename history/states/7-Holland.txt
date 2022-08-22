@@ -1,3 +1,4 @@
+
 state={
 	id=7
 	name="STATE_7"
@@ -6,16 +7,13 @@ state={
 	}
 
 	history={
-		owner = HOL
-		add_core_of = HOL
+		owner = RAD
+		add_core_of = RAD
 		victory_points = {
 			391 40 
 		}
 		victory_points = {
 			3211 10 
-		}
-		victory_points = {
-			9498 20 
 		}
 		buildings = {
 			infrastructure = 4
@@ -27,21 +25,16 @@ state={
 				naval_base = 5
 
 			}
-			9498 = {
-				naval_base = 10
-
-			}
 
 		}
 
 	}
 
 	provinces={
-		68 391 3211 3314 9498 
+		68 391 3211 3314 
 	}
 	manpower=4123000
 	buildings_max_level_factor=1.000
 	state_category=metropolis
-
-	local_supplies=0.0 
+	local_supplies=0.000
 }

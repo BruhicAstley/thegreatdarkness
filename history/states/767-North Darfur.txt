@@ -1,7 +1,7 @@
 state=
 {
 	id=767
-	name="STATE_767" # North Darfur
+	name="STATE_767" # RADth Darfur
 	manpower = 8143
 	
 	state_category = wasteland
@@ -9,7 +9,7 @@ state=
 	
 	history= {
 		add_core_of = SUD
-		owner = ENG
+		owner = RAD
 		buildings = {
 			infrastructure = 0
 		}

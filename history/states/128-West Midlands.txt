@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = RAD
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2
@@ -20,8 +20,8 @@ state={
 		victory_points = {
 			9297 25
 		}
-		add_core_of = ENG
-		1939.1.1 = {
+		add_core_of = RAD
+		2000.1.1 = {
 			buildings = {
 				arms_factory = 3
 				industrial_complex = 4

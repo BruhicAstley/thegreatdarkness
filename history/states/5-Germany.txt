@@ -9,16 +9,19 @@ state={
 		victory_points = {
 			6375 3
 		}
+		victory_points = {
+			3380 1
+		}
 		#victory_points = {
 		#	11386 1
 		#}
-		owner = GER
-		controller = GER
+		owner = RAD
+		controller = RAD
 		
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GER
+		add_core_of = RAD
 	}
 
 	provinces={

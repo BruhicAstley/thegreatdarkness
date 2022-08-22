@@ -11,10 +11,9 @@ state={
 	}
 
 	history={
-		owner = GXC
+		owner = RAD
 		add_core_of = GXC
-		add_core_of = CHI
-		add_core_of = PRC
+		add_core_of = RAD
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -29,9 +28,9 @@ state={
 					NOT = { has_dlc = "Waking the Tiger" }
 				}
 				remove_core_of = GXC
-				CHI = { transfer_state = PREV }
+				RAD = { transfer_state = PREV }
 			}
-			JAP = {
+			RAD = {
 				set_province_controller = 1018
 				set_province_controller = 4023
 				set_province_controller = 10004
