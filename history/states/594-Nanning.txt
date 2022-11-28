@@ -11,9 +11,8 @@ state={
 	}
 
 	history={
-		owner = GXC
+		owner = RAD
 		add_core_of = GXC
-		add_core_of = RAD
 		add_core_of = RAD
 		buildings = {
 			infrastructure = 2

@@ -6,7 +6,7 @@
  RAD_communism:0 "Cold Barren Land"
  radiation_zone:0 "Cold Barren Land"
  RAD_radiations:0 "Cold Barren Land"
- Cold Barren Land_colonization:0 "Colonization Of the Cold Lands"
+ Cold_Barren_Land_colonization:0 "Colonization Of the Cold Lands"
  radiations:0 "Cold Barren Land"
  colonization.0.t:0 "Colonization of Land"
  colonization.0.d:0 "With the land nearby us being unclaimed, the government is asking for you to seize it and claim it for yourself."

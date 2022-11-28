@@ -141,7 +141,7 @@ if = {
 		armored_car1 = 1
 	}
 }
-2000.1.1 = {
+1939.1.1 = {
 
 	add_political_power = 899
 	add_command_power = 100
@@ -292,27 +292,31 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
+	democratic = 64
 	fascism = 1
-	neutrality = 64
+	neutrality = 15
 	communism = 20
 }
 
 add_ideas = {
+	FRA_victors_of_wwi
 	FRA_disjointed_government
+	FRA_protected_by_the_maginot_line
 	limited_conscription
+	FRA_full_employment
 	FRA_political_violence
 	FRA_inefficient_economy_2
 }
 
-give_guarantee = DOR
-give_guarantee = GER
+give_guarantee = CZE
+give_guarantee = YUG
+give_guarantee = ROM
 
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez
@@ -335,7 +339,7 @@ recruit_character = FRA_francois_darlan
 recruit_character = FRA_jeanmarie_charles_abrial
 recruit_character = FRA_jeanpierre_esteva
 recruit_character = FRA_jean_de_laborde
-recruit_character = FRA_napoleon_v
+recruit_character = FRA_denis_guillaumat
 recruit_character = FRA_philippe_fequant
 recruit_character = FRA_victor_denain
 recruit_character = FRA_jean_marie_abrial
@@ -417,7 +421,7 @@ if = {
 }
 
 ### VARIANTS ###
-# 2000 Start #
+# 1936 Start #
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
@@ -900,8 +904,8 @@ if = {
 	}
 }
 
-# 2000 Start #
-2000.1.1 = {
+# 1939 Start #
+1939.1.1 = {
 	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		# Ship variants #

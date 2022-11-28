@@ -135,9 +135,6 @@ if = {
 		#laws
 		low_economic_mobilisation
 		limited_conscription
-		NZL_king_philip
-		great_depression_3
-		triumphant_will
 	}
 
 	
@@ -236,7 +233,7 @@ set_convoys = 70
 		ruling_party = democratic
 		last_election = "1938.10.15"
 		election_frequency = 60
-		elections_allowed = no
+		elections_allowed = yes
 	}
 
 	# Didn't take office until '40, added for flavor

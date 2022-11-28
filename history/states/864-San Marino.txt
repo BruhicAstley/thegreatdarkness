@@ -4,7 +4,7 @@ state={
 	name="STATE_864"
 
 	history={
-		owner = SMR
+		owner = RAD
 		victory_points = {
 			13246 1 
 		}
@@ -12,7 +12,7 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = SMR
+		add_core_of = RAD
 
 	}
 
